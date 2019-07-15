@@ -1,0 +1,65 @@
+h2 {
+	margin: 2% 0 !important;
+	float: left;
+	display: inline-block;
+}
+
+input {
+	max-width: 500px;
+}
+
+.btn-new-group {
+	margin: 3%;
+	float: right;
+	display: inline-block;
+}
+
+.card-header {
+	background-color: #90caf9 !important;
+}
+
+.btn-group {
+	color: #fff !important;
+	margin: .75rem 0 !important;
+}
+
+.btn-group-history {
+	float: right;
+	font-size: 2rem;
+	margin: 1% !important;
+	color: #fff !important;
+	margin: 1.3rem 0 !important;
+}
+
+.btn-group-add {
+	font-size: 3rem !important;
+	font-weight: 500 !important;
+	color: #fff !important;
+	float: right;
+	padding: 0 .75rem !important;
+}
+
+.btn-group-history:hover, .btn-group-add:hover {
+	color: #7398b2 !important;
+}
+
+.btn-group-ping:hover {
+	background-color: #90caf9;
+	color: #fff !important;
+}
+
+.btn-export {
+	margin: 3%;
+	float: right;
+	display: inline-block;
+	background-color: #90caf9 !important;
+	color: #fff !important;
+}
+
+.btn-export:hover {
+	background-color: #7398b2 !important;
+}
+
+.btn-back {
+	font-size: 1.5rem !important;
+}
