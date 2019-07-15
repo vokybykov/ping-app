@@ -17,13 +17,6 @@
 			}
 		}
 		
-		public static function redirectToIndex() {	
-			$host = $_SERVER['HTTP_HOST']; 
-			$uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\'); 
-			header("Location: http://$host$uri"); 
-			exit;
-		}
-		
 		public static function redirectTo($uri) {	
 			$host = $_SERVER['HTTP_HOST'];
 			header("Location: http://$host$uri"); 
